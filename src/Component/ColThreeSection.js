@@ -20,8 +20,8 @@ export const ColThreeSection = (props) => {
                 <div>
                   <div
                     className="card h-100 mb-3  {props.BgStyle} "
-                    data-aos="zoom-in-up"
-                    data-aos-duration="2000"
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
                   >
                     <img
                       src={Data.Image}

@@ -9,7 +9,7 @@ export const TimeLineComponent = () => {
       </h2>
       <div class="timeline">
         <div class="outer">
-          <div class="Time-Line-card" data-aos="zoom-in-up"  data-aos-duration="2000">
+          <div class="Time-Line-card" data-aos="zoom-in-up"  data-aos-duration="1000">
             <div class="info">
               <h3 class="title">2020-Now</h3>
               <p>
@@ -20,7 +20,7 @@ export const TimeLineComponent = () => {
               </p>
             </div>
           </div>
-          <div class="Time-Line-card" data-aos="zoom-in-up"  data-aos-duration="2000">
+          <div class="Time-Line-card" data-aos="zoom-in-up"  data-aos-duration="1000">
             <div class="info">
               <h3 class="title">1990-2020</h3>
               <p>
@@ -31,7 +31,7 @@ export const TimeLineComponent = () => {
               </p>
             </div>
           </div>
-          <div class="Time-Line-card" data-aos="zoom-in-up"  data-aos-duration="2000">
+          <div class="Time-Line-card" data-aos="zoom-in-up"  data-aos-duration="1000">
             <div class="info">
               <h3 class="title">1960-1990</h3>
               <p>
@@ -42,7 +42,7 @@ export const TimeLineComponent = () => {
               </p>
             </div>
           </div>
-          <div class="Time-Line-card" data-aos="zoom-in-up"  data-aos-duration="2000">
+          <div class="Time-Line-card" data-aos="zoom-in-up"  data-aos-duration="1000">
             <div class="info">
               <h3 class="title">1940-1960</h3>
               <p>
@@ -53,7 +53,7 @@ export const TimeLineComponent = () => {
               </p>
             </div>
           </div>
-          <div class="Time-Line-card" data-aos="zoom-in-up"  data-aos-duration="2000">
+          <div class="Time-Line-card" data-aos="zoom-in-up"  data-aos-duration="1000">
             <div class="info">
               <h3 class="title">1900-1940</h3>
               <p>

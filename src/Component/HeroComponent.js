@@ -5,7 +5,7 @@ export const HeroComponent = (props) => {
       <section className="bgbg">
         <section className="Hero-Section-Inner">
           <div className="row  row-cols-1   ">
-            <div className="col-lg-6 " data-aos="zoom-in-up"  data-aos-duration="2000">
+            <div className="col-lg-6 "data-aos="zoom-in"  data-aos-duration="1000">
               <div className="card h-100 Hero-Left-Card ">
                 <div className="card-body">
                   <h4>{props.H4}</h4>
@@ -17,7 +17,7 @@ export const HeroComponent = (props) => {
               </div>
             </div>
 
-            <div className="col-lg-6 " data-aos="zoom-in-up"  data-aos-duration="2000">
+            <div className="col-lg-6 "data-aos="zoom-in"  data-aos-duration="1000">
               <div className="card h-100 ">
                 <div className="card-body">
                   <img

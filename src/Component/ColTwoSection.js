@@ -7,7 +7,7 @@ export const ColTwoSection = (props) => {
         <div class="air air1"></div>
         <div class="air air2"></div>
         <div className="row  row-cols-1   ">
-          <div className="col-lg-6 " data-aos="zoom-in-up"  data-aos-duration="2000">
+          <div className="col-lg-6 "data-aos="zoom-in"  data-aos-duration="1000">
             <div className="card h-100 ">
               <div className="card-body">
                 <img
@@ -18,7 +18,7 @@ export const ColTwoSection = (props) => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6 ColTwo-Section-Inner " data-aos="zoom-in-up"  data-aos-duration="2000">
+          <div className="col-lg-6 ColTwo-Section-Inner "data-aos="zoom-in" data-aos-duration="1000">
             <div className="card h-100  ">
               <div className="card-body">
                 <h4>{props.H4}</h4>
