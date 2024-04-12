@@ -50,6 +50,10 @@ import Client4 from "../image/Client4.png";
 import Client5 from "../image/Client5.png";
 import Client6 from "../image/Client6.png";
 
+import Step1 from "../image/Step1.png";
+import Step2 from "../image/Step2.png";
+import Step3 from "../image/Step3.png";
+
 const Data1 = [
   {
     DataName: "Data1",
@@ -413,6 +417,33 @@ const ClientReview = [
   },
 ];
 
+const Steps = [
+  {
+    DataName: "Data1",
+    Image: Step1,
+    ImageAlt: "Image",
+    Text: "Service Step One",
+    Text2:
+      "orem ipsum dolor sit amet consectetuer adipiscing elitenean commo doligula eget dolorenean massa.In enim justo, rhoncus ut, imperdiet avene natis vitae just",
+  },
+  {
+    DataName: "Data1",
+    Image: Step2,
+    ImageAlt: "Image",
+    Text: "Service Step Two",
+    Text2:
+      "orem ipsum dolor sit amet consectetuer adipiscing elitenean commo doligula eget dolorenean massa.In enim justo, rhoncus ut, imperdiet avene natis vitae just",
+  },
+  {
+    DataName: "Data1",
+    Image: Step3,
+    ImageAlt: "Image",
+    Text: "Service Step Three",
+    Text2:
+      "orem ipsum dolor sit amet consectetuer adipiscing elitenean commo doligula eget dolorenean massa.In enim justo, rhoncus ut, imperdiet avene natis vitae just",
+  },
+];
+
 const People = [
   {
     id: 0,
@@ -469,4 +500,5 @@ export {
   Partners,
   Clients,
   ClientReview,
+  Steps,
 };

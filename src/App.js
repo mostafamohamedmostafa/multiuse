@@ -16,12 +16,14 @@ import {
   Partners,
   Clients,
   ClientReview,
+  Steps,
 } from "./Component/Data";
 import { HeroComponent } from "./Component/HeroComponent";
 import { ColTwoSection } from "./Component/ColTwoSection";
 
 import Project8 from "../src/image/Project8.png";
 import { TimeLineComponent } from "./Component/TimeLineComponent";
+import Companyhistory from "../src/image/Companyhistory.png";
 function App() {
   useEffect(() => {
     AOS.init();
@@ -93,6 +95,23 @@ function App() {
         H2="Explore "
         SPAN="What Happy Partner  Join Them?"
         COLSIZE="col-lg-3 g-4  "
+      />
+
+      <ColTwoSection
+        H4="Our Vision"
+        H2="Our Company Vision "
+        H2Span="Heritage 105 Years."
+        P="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim posuere sagittis. Quisque ornare eleifend arcu et condimentum. Aliquam consectetur blandit quam, porttitor malesuada lorem semper ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet lacus non ligula aliquam,"
+        IMG={Companyhistory}
+        IMGALT="T4TREV"
+      ></ColTwoSection>
+
+      <ColThreeSection
+        Data={Steps}
+        H5="Service Steps "
+        H2="Explore "
+        SPAN="The Our Service Steps"
+        COLSIZE="col-lg-4 g-4 "
       />
 
       <TimeLineComponent></TimeLineComponent>
