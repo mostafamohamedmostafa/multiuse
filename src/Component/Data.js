@@ -378,6 +378,41 @@ const Partners = [
     Text2: "",
   },
 ];
+const ClientReview = [
+  {
+    DataName: "Data1",
+    Image: TeamMember3,
+    ImageAlt: "Image",
+    Text: "Client  Name ☆☆☆☆☆",
+    Text2:
+      "orem ipsum dolor sit amet consectetuer adipiscing elitenean commo doligula eget dolorenean massa.In enim justo, rhoncus ut, imperdiet avene natis vitae just",
+  },
+  {
+    DataName: "Data1",
+    Image: TeamMember6,
+    ImageAlt: "Image",
+    Text: "Client  Name ☆☆☆☆",
+    Text2:
+      "orem ipsum dolor sit amet consectetuer adipiscing elitenean commo doligula eget dolorenean massa.In enim justo, rhoncus ut, imperdiet avene natis vitae just",
+  },
+  {
+    DataName: "Data1",
+    Image: TeamMember2,
+    ImageAlt: "Image",
+    Text: "Client  Name ☆☆☆☆☆",
+    Text2:
+      "orem ipsum dolor sit amet consectetuer adipiscing elitenean commo doligula eget dolorenean massa.In enim justo, rhoncus ut, imperdiet avene natis vitae just",
+  },
+  {
+    DataName: "Data1",
+    Image: TeamMember5,
+    ImageAlt: "Image",
+    Text: "Client  Name ☆☆☆☆",
+    Text2:
+      "orem ipsum dolor sit amet consectetuer adipiscing elitenean commo doligula eget dolorenean massa.In enim justo, rhoncus ut, imperdiet avene natis vitae just",
+  },
+];
+
 const People = [
   {
     id: 0,
@@ -423,4 +458,15 @@ const People2 = [
     age: 24,
   },
 ];
-export { Data1, People, People2, Project, Reason, Team, Review, Partners  ,Clients};
+export {
+  Data1,
+  People,
+  People2,
+  Project,
+  Reason,
+  Team,
+  Review,
+  Partners,
+  Clients,
+  ClientReview,
+};

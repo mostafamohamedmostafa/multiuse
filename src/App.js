@@ -15,6 +15,7 @@ import {
   Review,
   Partners,
   Clients,
+  ClientReview,
 } from "./Component/Data";
 import { HeroComponent } from "./Component/HeroComponent";
 import { ColTwoSection } from "./Component/ColTwoSection";
@@ -91,7 +92,7 @@ function App() {
         H5=" Our Partner "
         H2="Explore "
         SPAN="What Happy Partner  Join Them?"
-        COLSIZE="col-lg-2 g-4  "
+        COLSIZE="col-lg-3 g-4  "
       />
 
       <TimeLineComponent></TimeLineComponent>
@@ -101,7 +102,16 @@ function App() {
         H5=" Our Clients "
         H2="Explore "
         SPAN="Our Happy Clients  Join Them?"
-        COLSIZE="col-lg-2 g-4  "
+        BgStyle="bgbg"
+        COLSIZE="col-lg-4 g-4  "
+      />
+
+      <ColThreeSection
+        Data={ClientReview}
+        H5="Client Review"
+        H2="Explore "
+        SPAN="The Our Client Reviews"
+        COLSIZE="col-lg-6 g-4 "
       />
     </div>
   );

@@ -27,6 +27,8 @@ export const ColThreeSection = (props) => {
                       src={Data.Image}
                       className="img-fluid rounded-start"
                       alt={Data.ImageALt}
+                      data-aos="zoom-in"
+                      data-aos-duration="1500"
                     />
 
                     <div className="card-body ">
