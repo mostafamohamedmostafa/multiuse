@@ -1,4 +1,5 @@
 function DisplayUsers(props) {
+  const Data = props.Data;
 
   return (
     <div>
